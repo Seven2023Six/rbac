@@ -1,0 +1,17 @@
+server:
+  port: 8421
+spring:
+  application:
+    name: rbac-server-service
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/rbac
+    username: root
+    password: abc22456
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+  global-config:
+    db-config:
+      id-type: auto
