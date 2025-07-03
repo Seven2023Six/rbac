@@ -1,0 +1,33 @@
+# 全局通用忽略
+.DS_Store
+Thumbs.db
+*.swp
+*.log
+*.tmp
+*.iml
+.idea/
+target/
+**/node_modules/
+**/dist/
+**/coverage/
+
+# 后端项目（rbac-server）专用
+/rbac-server/**
+  .idea/
+  *.iml
+  target/
+  *.log
+  *.tmp
+
+# 前端项目（vite-rbac）专用
+/vite-rbac/**
+  node_modules/
+  dist/
+  .vscode/
+  .env*
+  tsconfig*.json
+  *.tsbuildinfo
+  *.log
+
+# 特殊文件忽略
+.gitignore
